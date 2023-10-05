@@ -24,7 +24,9 @@ jobs:
 
       - name: Build and publish Weather module
         working-directory: weather 
-        run: ./gradlew publishToMavenLocal
+        run: |
+         chmod +x gradlew 
+         ./gradlew publishToMavenLocal
 
       - name: Build and Test
         run: ./gradlew build test
