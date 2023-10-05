@@ -22,9 +22,6 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x ./gradlew
 
-      - name: show directory folders
-        run: ls
-
       - name: Build and publish Weather module
         working-directory: weather 
         run: ./gradlew publishToMavenLocal
