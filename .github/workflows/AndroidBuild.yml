@@ -3,7 +3,9 @@ name: WB Pipeline
 on:
   push:
     branches:
-      [master]
+      [ master]
+    paths:
+      - '**' # Watch for changes in all files
 
 jobs:
   build:
@@ -12,6 +14,21 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4.1.0
+
+      - name: Check if README file was modified
+        id: readme-check
+        run: |
+          git fetch origin master
+          CHANGED_FILES=$(git diff --name-only origin/master)
+          if echo "$CHANGED_FILES" | grep -q 'README.md'; then
+            echo "::set-output name=modified::true"
+          else
+            echo "::set-output name=modified::false"
+          fi
+
+      - name: Skip workflow if README was the only file modified
+        if: steps.readme-check.outputs.modified == 'false'
+        run: exit 78 # Skip the rest of the workflow
 
       - name: Set up JDK
         uses: actions/setup-java@v3.13.0
