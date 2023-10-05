@@ -22,6 +22,12 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x ./gradlew
 
+      - name: Build and Publish my-module
+        run: |
+          cd weather 
+          chmod +x ./gradlew 
+          ./gradlew publish
+
       - name: Build and Test
         run: ./gradlew build test
 
