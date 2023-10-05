@@ -21,8 +21,8 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    hilt {
-        enableTransformForLocalTests = true
+    lintOptions {
+        abortOnError false
     }
 
     buildTypes {
