@@ -15,7 +15,7 @@ Weather App (Search for your city and get the current weather and the forcast we
 - ViewBinding
 - Retrofit2 & OkHttp3
 - Unit-Test using (JUnit - MockK)
-- Instrmented-Test using 
+- Instrmented-Test 
 
 ## Important to run this project
 You need to add your api key on this file credentials.properties to be able to run the app Get it from Here: https://developer.accuweather.com/user/login 
