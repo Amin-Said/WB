@@ -29,6 +29,7 @@ You need to add your api key on this file credentials.properties to be able to r
 - Applied the weather state handler as library using MavenLocal 
 - Applied the instrumented test to test AppDataStore functionality 
 - Applied Dark Mode  
+- Appliced CI/CD on Github Actions
  
 
 ## Screenshots 
