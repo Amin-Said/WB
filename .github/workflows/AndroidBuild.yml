@@ -22,11 +22,15 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x ./gradlew
 
-      - name: Build and publish Weather module
-        working-directory: weather 
+      - name: Build Weather Module
         run: |
-         chmod +x gradlew 
-         ./gradlew publishToMavenLocal
+          cd weather  
+          gradle clean build 
+
+      - name: Publish Weather Module to Maven Local
+        run: |
+          cd weather 
+          gradle publishToMavenLocal 
 
       - name: Build and Test
         run: ./gradlew build test
