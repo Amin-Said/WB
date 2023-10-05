@@ -25,11 +25,9 @@ jobs:
       - name: show directory folders
         run: ls
 
-      - name: Build and Publish my-module
-        run: |
-          cd weather 
-          chmod +x ./gradlew 
-          ./gradlew publish
+      - name: Build and publish Weather module
+        working-directory: weather 
+        run: ./gradlew publishToMavenLocal
 
       - name: Build and Test
         run: ./gradlew build test
