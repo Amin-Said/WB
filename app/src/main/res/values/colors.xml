@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#E3E0E0</color>
+    <color name="gray_dark">#8A8A8A</color>
+    <color name="blue">#087ED8</color>
+    <color name="green">#009688</color>
+    <color name="red">#F44336</color>
+    <color name="red_dark">#FAB7B2</color>
+    <color name="light_blue">#76cfdf</color>
+    <color name="splash_bg">#fbfbfb</color>
+    <color name="primary_color">#53d0ea</color>
+    <color name="yellow">#FBF850</color>
+    <color name="dark_blue">#01467A</color>
+
+    <color name="text_color_title">@color/white</color>
+    <color name="text_color_subtitle">@color/white</color>
+    <color name="text_color_action">@color/yellow</color>
+    <color name="bg_card">@color/blue</color>
+
+
+    <color name="my_dark_primary">#FF000000</color>
+    <color name="my_light_primary">#087ED8</color>
+
+    <color name="my_dark_secondary">#FF000000</color>
+    <color name="my_light_secondary">#087ED8</color>
+
+</resources>

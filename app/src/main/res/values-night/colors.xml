@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_color_title">@color/white</color>
+    <color name="text_color_subtitle">@color/white</color>
+    <color name="text_color_action">@color/yellow</color>
+    <color name="bg_card">@color/dark_blue</color>
+
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_app"
+    app:startDestination="@id/searchCityFragment">
+
+    <fragment
+        android:id="@+id/searchCityFragment"
+        android:name="me.aminsaid.wb.presentation.cityInput.SearchCityFragment"
+        android:label="SearchCityFragment" >
+        <action
+            android:id="@+id/action_searchCityFragment_to_weatherInfoFragment"
+            app:destination="@id/weatherInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/weatherInfoFragment"
+        android:name="me.aminsaid.wb.presentation.weatherInfo.WeatherInfoFragment"
+        android:label="fragment_weather_info"
+        tools:layout="@layout/fragment_weather_info" >
+        <argument
+            android:name="city"
+            app:argType="me.aminsaid.cityinput.domain.model.City" />
+    </fragment>
+</navigation>

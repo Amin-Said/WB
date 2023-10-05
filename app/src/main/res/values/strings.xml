@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MockWeatherT</string>
+    <string name="enter_city_name">Enter city name</string>
+    <string name="invalid_request">Request had bad syntax or the parameters supplied were invalid.</string>
+    <string name="unauthorized">Unauthorized. API authorization failed.</string>
+    <string name="permission_denied">Unauthorized. You do not have permission to access this endpoint.</string>
+    <string name="not_found">Server has not found a route matching the given URI.</string>
+    <string name="server_down">Server encountered an unexpected condition which prevented it from fulfilling the request.</string>
+    <string name="unknown_error">Unknown Error</string>
+    <string name="empty_response">No result data</string>
+    <string name="no_internet">No Internet available</string>
+    <string name="weather_state">Weather state</string>
+    <string name="change_city">View another city</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_top_100dp">100dp</dimen>
+    <dimen name="margin_top_200dp">200dp</dimen>
+    <dimen name="card_width_50dp">50dp</dimen>
+    <dimen name="card_height_40dp">40dp</dimen>
+    <dimen name="image_size_25dp">25dp</dimen>
+    <dimen name="image_size_30dp">30dp</dimen>
+    <dimen name="image_size_40dp">40dp</dimen>
+    <dimen name="image_size_60dp">60dp</dimen>
+    <dimen name="image_size_800dp">80dp</dimen>
+    <dimen name="image_size_100dp">100dp</dimen>
+    <dimen name="image_height_200dp">200dp</dimen>
+    <dimen name="image_height_250dp">250dp</dimen>
+    <dimen name="card_size_150dp">150dp</dimen>
+
+    <dimen name="_4dp">4dp</dimen>
+    <dimen name="_8dp">8dp</dimen>
+    <dimen name="_12dp">12dp</dimen>
+    <dimen name="_16dp">16dp</dimen>
+    <dimen name="_24dp">24dp</dimen>
+    <dimen name="_32dp">32dp</dimen>
+    <dimen name="_60dp">60dp</dimen>
+
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
+
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="one_dp">1dp</dimen>
+    <dimen name="progress_size">60dp</dimen>
+
+</resources>
