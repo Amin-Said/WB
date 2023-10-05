@@ -24,15 +24,13 @@ jobs:
 
       - name: Build Weather Module
         run: |
-          chmod +x gradlew
           cd weather  
-          ./gradlew clean build 
+          gradle clean build 
 
       - name: Publish Weather Module to Maven Local
         run: |
-          chmod +x gradlew
           cd weather 
-          ./gradlew publishToMavenLocal 
+          gradle publishToMavenLocal 
 
       - name: Build and Test
         run: ./gradlew build test
